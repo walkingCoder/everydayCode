@@ -1,4 +1,3 @@
-package com.xiachufang.utils.search;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -13,6 +12,20 @@ import java.util.Map;
  */
 public class FrequencySort {
 
+    /**
+     * 示例 1:
+     *
+     * 输入:
+     * "tree"
+     *
+     * 输出:
+     * "eert"
+     *
+     * 解释:
+     * 'e'出现两次，'r'和't'都只出现一次。
+     * 因此'e'必须出现在'r'和't'之前。此外，"eetr"也是一个有效的答案。
+     * @param args
+     */
     public static void main(String[] args){
         frequencySort("tree");
     }
@@ -51,3 +64,4 @@ public class FrequencySort {
         return stringBuilder.toString();
     }
 }
+
